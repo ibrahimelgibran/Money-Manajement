@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-900 text-white;
+  }
+
+  button {
+    @apply transition-all duration-100 hover:scale-110;
+  }
+}
+
+@layer utilities {
+  .btn {
+    @apply px-4 py-4 text-sm text-white capitalize bg-red-500 rounded-xl;
+  }
+
+  .btn-danger {
+    @apply text-white bg-red-600  border-red-800;
+  }
+}
