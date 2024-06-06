@@ -13,6 +13,11 @@ import Head from "@/app/head";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link
+        rel="shortcut icon"
+        href="./assets/ieg.png"
+        type="image/x-icon"
+      ></link>
       <Head />
       <body>
         <AuthContextProvider>
